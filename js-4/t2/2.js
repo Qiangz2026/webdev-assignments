@@ -1,0 +1,11 @@
+const targetUl = document.getElementById("target");
+const li1 = document.createElement("li");
+li1.innerText = "First item";
+targetUl.appendChild(li1);
+const li2 = document.createElement("li");
+li2.innerText = "Second item";
+li2.classList.add("my-item"); 
+targetUl.appendChild(li2);
+const li3 = document.createElement("li");
+li3.innerText = "Third item";
+targetUl.appendChild(li3);
